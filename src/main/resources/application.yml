@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: proy-producto
+  data:
+    mongodb:
+      uri: fdfdf
