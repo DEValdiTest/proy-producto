@@ -3,4 +3,4 @@ spring:
     name: proy-producto
   data:
     mongodb:
-      uri: fdfdf
+      uri: mongodb+srv://user-growth-dev:3Em6WjDzX7MYBHZ@fp-dqu-digital-mongo.aohi9.mongodb.net/master-dev?retryWrites=true&w=majority

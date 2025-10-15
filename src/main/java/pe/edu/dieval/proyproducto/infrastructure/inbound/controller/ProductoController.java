@@ -17,7 +17,7 @@ public class ProductoController {
     }
 
     @GetMapping("/v0/producto/{nombre}")
-    public Producto obtenerProducto(@RequestParam(value = "skuInkafarma", required = false, defaultValue = "141025") String sku,
+    public Producto obtenerProducto(@RequestParam(value = "sku", required = false, defaultValue = "141025") String sku,
                                     @PathVariable("nombre") String nombre) {
 
         return  productoFacade.obtenerProducto(sku, nombre);
